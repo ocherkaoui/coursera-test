@@ -1,9 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera</title>
+	<meta charset="utf-8">
+	<title>Coursera is Cool!</title>
 </head>
+<style>
+p {
+	color: blue;
+	font-size: 20px;
+	width: 200px;
+}
+
+.purple {
+	color: purple;
+}
+
+h1 {
+	color: green;
+	font-size: 36px;
+	text-align: center;
+}
+
+h2 {
+	color: red;
+	font-size: 30px;
+	text-align: left;
+}
+ol li {
+	list-style: none;
+	float: right;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	background-color: blue;
+	border: 1px solid black;
+	color: white;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+a:hover, a:active {
+	background-color: purple; 
+	color: white;
+}
+
+ol li:nth-child(odd):hover {
+	font-size: 30px;
+}
+
+#floatingtest {
+	clear: right;
+}
+
+#floatingboxtest {
+	clear: left;
+}
+
+</style>	
 <body>
-<h1>Hello Coursera! It's a great course. This is just an example.</h1>
+	<h1>Coursera is cool. This is just a test.</h1>
+	<h2>Test</h2>
+	<p>Another test for recipe</p>
+	<h2>Just a title</h2>
+	<ul>
+		<li class="purple">Text A</li>
+		<li>Text B</li>
+			<ol>
+				<li><a href="https://www.google.com" target="_blank">Text C</a></li>
+				<li><a href="https://www.facebook.com" target="_blank">Text D</a></li>
+				<li><a href="https://www.instagram.com" target="_blank">Text E</a></li>
+				<li id="floatingboxtest"><a href="https://www.test.com" target="_blank">Text Z</a></li>
+				<li><a href="https://www.testother.com" target="_blank">Text X</a></li>	
+			</ol>
+		<li id="floatingtest" style="text-align: center;color: blue">Text F</li>
+			<ul>
+				<li>Text G</li>
+				<li>Text H</li>
+			</ul>
+	</ul>
+	
+	<p>Link text
+	Link URL</p>
+
+	<footer>Text &lt;Text &amp; Text&nbsp;Text &gt; Footer</footer>
 </body>
 </html>
