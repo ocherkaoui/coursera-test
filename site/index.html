@@ -18,7 +18,7 @@ p {
 h1 {
 	color: green;
 	font-size: 36px;
-	text-align: center;
+	text-align: left;
 }
 
 h2 {
@@ -28,7 +28,6 @@ h2 {
 }
 ol li {
 	list-style: none;
-	float: right;
 }
 
 a:link, a:visited {
@@ -58,9 +57,44 @@ ol li:nth-child(odd):hover {
 	clear: left;
 }
 
+section {
+	list-style: none;
+}
+
+#text1 {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+
+#text2 {
+	position: absolute;
+	top: 40px;
+	right: 120px;
+}
+
+#text3 {
+	position: absolute;
+	top: 40px;
+	right: 220px;
+}
+
+#text4 {
+	position: absolute;
+	top: 40px;
+	right: 320px;
+}
+
 </style>	
 <body>
-	<h1>Coursera is cool. This is just a test.</h1>
+	<section>
+	<h1>Omar's Website</h1>
+		<li id="text1"><a href="https://www.google.com" target="_blank">Contact Us</a></li>
+		<li id="text2"><a href="https://www.google.com" target="_blank">Product</a></li>
+		<li id="text3"><a href="https://www.google.com" target="_blank">About</a></li>
+		<li id="text4"><a href="https://www.google.com" target="_blank">Home</a></li>
+	</section>
+
 	<h2>Test</h2>
 	<p>Another test for recipe</p>
 	<h2>Just a title</h2>
@@ -68,13 +102,13 @@ ol li:nth-child(odd):hover {
 		<li class="purple">Text A</li>
 		<li>Text B</li>
 			<ol>
-				<li><a href="https://www.google.com" target="_blank">Text C</a></li>
-				<li><a href="https://www.facebook.com" target="_blank">Text D</a></li>
-				<li><a href="https://www.instagram.com" target="_blank">Text E</a></li>
-				<li id="floatingboxtest"><a href="https://www.test.com" target="_blank">Text Z</a></li>
-				<li><a href="https://www.testother.com" target="_blank">Text X</a></li>	
+				<li>Text C</li>
+				<li>Text D</li>
+				<li>Text E</li>
+				<li id="floatingboxtest">Text Z</li>
+				<li>Text X</li>	
 			</ol>
-		<li id="floatingtest" style="text-align: center;color: blue">Text F</li>
+		<li id="floatingtest" style="color: blue">Text F</li>
 			<ul>
 				<li>Text G</li>
 				<li>Text H</li>
