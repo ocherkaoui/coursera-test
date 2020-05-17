@@ -1,0 +1,107 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+p.chicken {
+  border: 3px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  background-color: #d59899;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+  width: 33%;
+}
+
+p.beef {
+  border: 3px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  background-color: #c14543;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+  width: 33%;
+}
+
+p.sushi {
+  border: 3px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  background-color: #e5d198;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+  width: 33%;
+}
+
+section {
+  border: 3px solid black;
+  background-color: #999999;
+  width: 90%;
+  height: 180px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px; 
+  font-family: Helvetica;
+  color: black;
+  overflow: auto;
+}
+
+section div {
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+.chicken {
+  float: right;
+  margin: 0;
+}
+
+.beef {
+  float: right;
+  margin: 0;
+}
+
+.sushi {
+  float: right;
+  margin: 0;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop version **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 105.6%;
+  }
+}
+
