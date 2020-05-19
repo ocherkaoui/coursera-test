@@ -1,0 +1,24 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #fff;
+	border-radius: 0;
+	border: 0px;
+}
+
+#logo-img {
+	background: url('../ifmsa-morocco-resized-2.png') no-repeat;
+	width: 250px;
+	height: 141px;
+	margin:	10px 25px 10px 0;
+}
+
+
+
+
